@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>protobot_navigation</name>
+  <version>0.5.1</version>
+  <description>Autonomous mapping and navigation for Vichesta21'</description>
+
+  <author email="varad.vinayakpandey.civ20@itbhu.ac.in">Varad Vinayak Pandey</author>
+  <author email="utkrisht.kumarsingh.eee20@itbhu.ac.in">Utkrisht Kumar Singh</author>
+
+  <maintainer email="varad.vinayakpandey.civ20@itbhu.ac.in">Varad Vinayak Pandey</maintainer>
+  <maintainer email="utkrisht.kumarsingh.eee20@itbhu.ac.in">Utkrisht Kumar Singh</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslaunch</build_depend>
+  <run_depend>gmapping</run_depend>
+  <run_depend>map_server</run_depend>
+  <run_depend>move_base</run_depend>
+  <run_depend>navfn</run_depend>
+  <run_depend>base_local_planner</run_depend>
+  <run_depend>dwa_local_planner</run_depend>
+  <run_depend>teb_local_planner</run_depend>
+
+  <export>
+  </export>
+</package>
